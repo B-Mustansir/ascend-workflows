@@ -10,7 +10,7 @@ export class TheGraphLiquidityPool implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Liquidity Pool',
 		name: 'theGraphLiquidityPool',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get liquidity pool data using TheGraph',

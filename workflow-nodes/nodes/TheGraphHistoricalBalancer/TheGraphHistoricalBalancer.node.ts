@@ -10,7 +10,7 @@ export class TheGraphHistoricalBalancer implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Historical Balancer',
 		name: 'theGraphHistoricalBalancer',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get historical Balancer data using TheGraph',

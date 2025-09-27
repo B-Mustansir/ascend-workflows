@@ -10,7 +10,7 @@ export class TheGraphBalanceAddress implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Balance Address',
 		name: 'theGraphBalanceAddress',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get token balances for an address using TheGraph',

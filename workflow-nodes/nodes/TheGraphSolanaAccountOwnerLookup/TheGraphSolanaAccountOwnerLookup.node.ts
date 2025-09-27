@@ -10,7 +10,7 @@ export class TheGraphSolanaAccountOwnerLookup implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Solana Account Owner Lookup',
 		name: 'theGraphSolanaAccountOwnerLookup',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Lookup Solana account owner using TheGraph',

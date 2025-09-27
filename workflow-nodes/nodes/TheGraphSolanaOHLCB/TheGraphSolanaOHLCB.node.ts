@@ -10,7 +10,7 @@ export class TheGraphSolanaOHLCB implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Solana OHLCB',
 		name: 'theGraphSolanaOHLCB',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get Solana OHLCB data using TheGraph',

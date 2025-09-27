@@ -10,7 +10,7 @@ export class TheGraphOHLCV implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph OHLCV',
 		name: 'theGraphOHLCV',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get OHLCV (Open, High, Low, Close, Volume) data using TheGraph',

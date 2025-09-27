@@ -10,7 +10,7 @@ export class TheGraphTokenHolders implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Token Holders',
 		name: 'theGraphTokenHolders',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get token holders using TheGraph',

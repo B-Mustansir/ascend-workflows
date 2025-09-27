@@ -10,7 +10,7 @@ export class TheGraphTransferEvents implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Transfer Events',
 		name: 'theGraphTransferEvents',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get transfer events using TheGraph',

@@ -10,7 +10,7 @@ export class TheGraphOlanaswap implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Olanaswap',
 		name: 'theGraphOlanaswap',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get Olanaswap data using TheGraph',

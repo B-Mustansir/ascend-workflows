@@ -10,7 +10,7 @@ export class TheGraphTokenMetadata implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Token Metadata',
 		name: 'theGraphTokenMetadata',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get token metadata using TheGraph',

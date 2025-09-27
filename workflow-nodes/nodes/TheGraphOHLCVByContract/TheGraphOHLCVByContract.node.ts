@@ -10,7 +10,7 @@ export class TheGraphOHLCVByContract implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph OHLCV By Contract',
 		name: 'theGraphOHLCVByContract',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get OHLCV data by contract using TheGraph',

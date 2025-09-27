@@ -10,7 +10,7 @@ export class TheGraphSolanaNative implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'TheGraph Solana Native',
 		name: 'theGraphSolanaNative',
-		icon: 'file:ethereum.svg',
+		icon: 'file:theGraph.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get Solana native token data using TheGraph',
