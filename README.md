@@ -1,6 +1,6 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-# workflow-nodes-starter
+# workflow-nodes
 
 This repo contains nodes to help you get started building your own web3 workflows for [n8n](https://n8n.io). It includes the node linter and other dependencies.
 
@@ -23,7 +23,7 @@ These are the basic steps for working with the starter.
 2. Run `docker compose build workflow-editor` to build the docker image.
 3. Run `docker compose up` to start and run your application.
 4. Open the project in your editor.
-5. Browse the examples in `/workflow-nodes-starter/nodes` and `/workflow-nodes-starter/credentials`.
+5. Browse the examples in `/workflow-nodes/nodes` and `/workflow-nodes/credentials`.
 
 ## More information
 
