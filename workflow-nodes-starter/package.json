@@ -39,7 +39,8 @@
     "nodes": [
       "dist/nodes/ExampleNode/ExampleNode.node.js",
       "dist/nodes/PythPrice/PythPrice.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HttpBin/HttpBin.node.js",
+      "dist/nodes/ENSNameResolution/ENSNameResolution.node.js"
     ]
   },
   "devDependencies": {
@@ -49,6 +50,9 @@
     "gulp": "^5.0.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
