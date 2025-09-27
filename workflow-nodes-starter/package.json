@@ -51,7 +51,22 @@
       "dist/nodes/ENSL2PrimaryNames/ENSL2PrimaryNames.node.js",
       "dist/nodes/ENSSubdomain/ENSSubdomain.node.js",
       "dist/nodes/ENSTextRecord/ENSTextRecord.node.js",
-      "dist/nodes/ENSVABackExtra/ENSVABackExtra.node.js"
+      "dist/nodes/ENSVABackExtra/ENSVABackExtra.node.js",
+      "dist/nodes/TheGraphBalanceAddress/TheGraphBalanceAddress.node.js",
+      "dist/nodes/TheGraphHistoricalBalancer/TheGraphHistoricalBalancer.node.js",
+      "dist/nodes/TheGraphLiquidityPool/TheGraphLiquidityPool.node.js",
+      "dist/nodes/TheGraphOHLCV/TheGraphOHLCV.node.js",
+      "dist/nodes/TheGraphOlanaswap/TheGraphOlanaswap.node.js",
+      "dist/nodes/TheGraphOHLCVByContract/TheGraphOHLCVByContract.node.js",
+      "dist/nodes/TheGraphSolanaAccount/TheGraphSolanaAccount.node.js",
+      "dist/nodes/TheGraphSolanaAccountOwnerLookup/TheGraphSolanaAccountOwnerLookup.node.js",
+      "dist/nodes/TheGraphSolanaNative/TheGraphSolanaNative.node.js",
+      "dist/nodes/TheGraphSolanaOHLCB/TheGraphSolanaOHLCB.node.js",
+      "dist/nodes/TheGraphSolanaTransferEvents/TheGraphSolanaTransferEvents.node.js",
+      "dist/nodes/TheGraphSwapEvents/TheGraphSwapEvents.node.js",
+      "dist/nodes/TheGraphTokenHolders/TheGraphTokenHolders.node.js",
+      "dist/nodes/TheGraphTokenMetadata/TheGraphTokenMetadata.node.js",
+      "dist/nodes/TheGraphTransferEvents/TheGraphTransferEvents.node.js"
     ]
   },
   "devDependencies": {
