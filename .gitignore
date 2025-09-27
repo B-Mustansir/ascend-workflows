@@ -1,0 +1,4 @@
+.env
+data_workflow/*.log
+data_workflow/database.sqlite
+data_workflow/config

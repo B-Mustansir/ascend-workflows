@@ -1,0 +1,13 @@
+services:
+  workflow-editor:
+    build:
+      context: .
+      dockerfile: ./workflow.dockerfile
+    image: dac-workflow-custom:0.0.1
+    container_name: dac-workflow-custom
+    volumes:
+      - ./data_workflow:/home/node/.n8n
+    ports:
+      - "5678:5678"
+    env_file:
+      - .env
