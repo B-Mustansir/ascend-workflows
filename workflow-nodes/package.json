@@ -45,6 +45,8 @@
       "dist/nodes/OneInchPriceFeed/OneInchPriceFeed.node.js",
       "dist/nodes/OneInchTokenMetadata/OneInchTokenMetadata.node.js",
       "dist/nodes/OneInchWalletBalances/OneInchWalletBalances.node.js",
+      "dist/nodes/OneInchBuildQuote/OneInchBuildQuote.node.js",
+      "dist/nodes/OneInchGetQuote/OneInchGetQuote.node.js",
       "dist/nodes/ENSNameResolution/ENSNameResolution.node.js",
       "dist/nodes/ENSAvatar/ENSAvatar.node.js",
       "dist/nodes/ENSPrimaryName/ENSPrimaryName.node.js",

@@ -33,11 +33,11 @@ export class FetchAiLLMStructured implements INodeType {
         default: 'asi1-mini',
       },
       {
-        displayName: 'Tool Functions (JSON)',
-        name: 'tools',
+        displayName: 'Response Format (JSON)',
+        name: 'responseFormat',
         type: 'json',
-        default: '[]',
-        description: 'List of tool or function definitions as standard JSON',
+        default: '{}',
+        description: 'JSON schema defining the structure of the expected response'
       },
     ],
   };
@@ -50,12 +50,12 @@ export class FetchAiLLMStructured implements INodeType {
       const apiKey = this.getNodeParameter('apiKey', i) as string;
       const prompt = this.getNodeParameter('prompt', i) as string;
       const model = this.getNodeParameter('model', i) as string;
-      const tools = this.getNodeParameter('tools', i) as object[];
+      const responseFormat = this.getNodeParameter('responseFormat', i) as object;
 
       const body = {
         model,
         messages: [{ role: 'user', content: prompt }],
-        tools,
+        response_format: responseFormat,
       };
 
       const response = await this.helpers.httpRequest({
