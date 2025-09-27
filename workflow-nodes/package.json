@@ -80,7 +80,15 @@
       "dist/nodes/TheGraphTokenMetadata/TheGraphTokenMetadata.node.js",
       "dist/nodes/TheGraphTransferEvents/TheGraphTransferEvents.node.js",
       "dist/nodes/FetchAiLLM/FetchAiLLM.node.js",
-      "dist/nodes/FetchAiLLMStructured/FetchAiLLMStructured.node.js"
+      "dist/nodes/FetchAiLLMStructured/FetchAiLLMStructured.node.js",
+      "dist/nodes/WalrusAggregatorHTTP/WalrusAggregatorHTTP.node.js",
+      "dist/nodes/WalrusGetFiles/WalrusGetFiles.node.js",
+      "dist/nodes/WalrusPublisherHTTP/WalrusPublisherHTTP.node.js",
+      "dist/nodes/WalrusPublishSite/WalrusPublishSite.node.js",
+      "dist/nodes/WalrusSecuritySeal/WalrusSecuritySeal.node.js",
+      "dist/nodes/WalrusFileAbstraction/WalrusFileAbstraction.node.js",
+      "dist/nodes/WalrusWriteBlob/WalrusWriteBlob.node.js",
+      "dist/nodes/WalrusUploadRelayConfig/WalrusUploadRelayConfig.node.js"
     ]
   },
   "devDependencies": {
