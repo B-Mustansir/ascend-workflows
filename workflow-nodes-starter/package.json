@@ -45,7 +45,13 @@
       "dist/nodes/OneInchPriceFeed/OneInchPriceFeed.node.js",
       "dist/nodes/OneInchTokenMetadata/OneInchTokenMetadata.node.js",
       "dist/nodes/OneInchWalletBalances/OneInchWalletBalances.node.js",
-      "dist/nodes/ENSNameResolution/ENSNameResolution.node.js"
+      "dist/nodes/ENSNameResolution/ENSNameResolution.node.js",
+      "dist/nodes/ENSAvatar/ENSAvatar.node.js",
+      "dist/nodes/ENSPrimaryName/ENSPrimaryName.node.js",
+      "dist/nodes/ENSL2PrimaryNames/ENSL2PrimaryNames.node.js",
+      "dist/nodes/ENSSubdomain/ENSSubdomain.node.js",
+      "dist/nodes/ENSTextRecord/ENSTextRecord.node.js",
+      "dist/nodes/ENSVABackExtra/ENSVABackExtra.node.js"
     ]
   },
   "devDependencies": {
@@ -57,7 +63,8 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "ethers": "^6.13.4"
+    "ethers": "^6.13.4",
+    "axios": "^1.6.0"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
