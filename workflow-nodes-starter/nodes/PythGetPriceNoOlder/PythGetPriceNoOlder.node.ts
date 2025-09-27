@@ -1,0 +1,76 @@
+import {
+	IExecuteFunctions,
+	INodeExecutionData,
+	INodeType,
+	INodeTypeDescription,
+} from 'n8n-workflow';
+import axios from 'axios';
+
+export class PythGetPriceNoOlder implements INodeType {
+	description: INodeTypeDescription = {
+		displayName: 'Pyth Get Price No Older',
+		name: 'pythGetPriceNoOlder',
+		icon: 'file:pyth.svg',
+		group: ['transform'],
+		version: 1,
+		description: 'Get price for a Pyth price feed ID with age limit',
+		defaults: { name: 'Pyth Get Price No Older' },
+		inputs: ['main'],
+		outputs: ['main'],
+		properties: [
+			{
+				displayName: 'Price Feed ID',
+				name: 'id',
+				type: 'string',
+				default: '',
+				placeholder: '0x1234...abcd',
+				description: 'The Pyth price feed ID',
+			},
+			{
+				displayName: 'Max Age Seconds',
+				name: 'maxAge',
+				type: 'number',
+				default: 300,
+				description: 'Maximum age in seconds for the price data',
+			},
+			{
+				displayName: 'Hermes Base URL',
+				name: 'baseUrl',
+				type: 'string',
+				default: 'https://hermes.pyth.network',
+				description: 'Hermes API base URL',
+			},
+		],
+	};
+
+	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
+		const items = this.getInputData();
+		const returnData: INodeExecutionData[] = [];
+
+		for (let i = 0; i < items.length; i++) {
+			const id = this.getNodeParameter('id', i) as string;
+			const maxAge = this.getNodeParameter('maxAge', i) as number;
+			const baseUrl = this.getNodeParameter('baseUrl', i) as string;
+
+			let data: any = null;
+			try {
+				const res = await axios.get(`${baseUrl}/v2/updates/price/${id}`, { 
+					params: { maxAge } 
+				});
+				data = res.data;
+			} catch (err) {
+				data = { error: (err as any).message };
+			}
+
+			returnData.push({ 
+				json: { 
+					id, 
+					maxAge, 
+					data 
+				} 
+			});
+		}
+
+		return [returnData];
+	}
+}
