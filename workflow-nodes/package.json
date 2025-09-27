@@ -78,7 +78,9 @@
       "dist/nodes/TheGraphSwapEvents/TheGraphSwapEvents.node.js",
       "dist/nodes/TheGraphTokenHolders/TheGraphTokenHolders.node.js",
       "dist/nodes/TheGraphTokenMetadata/TheGraphTokenMetadata.node.js",
-      "dist/nodes/TheGraphTransferEvents/TheGraphTransferEvents.node.js"
+      "dist/nodes/TheGraphTransferEvents/TheGraphTransferEvents.node.js",
+      "dist/nodes/FetchAiLLM/FetchAiLLM.node.js",
+      "dist/nodes/FetchAiLLMStructured/FetchAiLLMStructured.node.js"
     ]
   },
   "devDependencies": {
