@@ -1,8 +1,12 @@
-![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8ebc384b-93e5-427c-b842-a88a386b375a" />
 
 # workflow-nodes
 
 This repo contains nodes to help you get started building your own web3 workflows for [n8n](https://n8n.io). It includes the node linter and other dependencies.
+
+## Demo
+
+https://ethglobal.com/showcase/ascend-workflows-pw4jk
 
 ## Prerequisites
 
