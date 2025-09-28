@@ -46,7 +46,7 @@ export class PythPriceFeeds implements INodeType {
 			const query = this.getNodeParameter('query', i) as string;
 
 			try {
-				const response = await axios.get('https://api.pyth.network/v2/price_feeds', {
+				const response = await axios.get('https://hermes.pyth.network/v2/price_feeds', {
 					params: {
 						asset_type: assetType || undefined,
 						query: query || undefined,
