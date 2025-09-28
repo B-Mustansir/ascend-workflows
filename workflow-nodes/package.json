@@ -91,7 +91,10 @@
       "dist/nodes/WalrusSecuritySeal/WalrusSecuritySeal.node.js",
       "dist/nodes/WalrusFileAbstraction/WalrusFileAbstraction.node.js",
       "dist/nodes/WalrusWriteBlob/WalrusWriteBlob.node.js",
-      "dist/nodes/WalrusUploadRelayConfig/WalrusUploadRelayConfig.node.js"
+      "dist/nodes/WalrusUploadRelayConfig/WalrusUploadRelayConfig.node.js",
+      "dist/nodes/CovalentWalletTransactions/CovalentWalletTransactions.node.js",
+      "dist/nodes/CovalentWalletBalances/CovalentWalletBalances.node.js",
+      "dist/nodes/CovalentWalletActivity/CovalentWalletActivity.node.js"
     ]
   },
   "devDependencies": {
